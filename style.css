@@ -1,0 +1,129 @@
+/*selector universal afecta a todo el documento*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Agregamos estilos css a todos los h1*/
+h1{
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+    font-weight: bold; /*lo remarca*/
+}
+
+h2{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Alegreya', serif;
+}
+
+nav, p, footer{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+    /*border: 1px solid black; agregamos un borde*/
+    display: block;
+}
+
+body{
+    text-align: center; /*alineamos el texto*/
+}
+
+.agrupar{
+    width: 960px; /*ancho*/
+    margin: 15px auto;
+    border: 1px solid black;
+}
+
+.cabecera{
+    background: #1abc9c;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.menu{
+    background: #f1c40f;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li{
+    list-style: none; /*quitamos los puntos de la lista*/
+    padding: 5px;
+    font-family: 'Frank Ruhl Libre', serif;
+    display: inline-block;
+}
+
+.cabecera h1{
+    text-align: left;
+}
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+/*barra latera*/
+.columna{
+    width: 300px;
+    float: left; /*flota hacia..*/
+    margin: 20px 0;
+}
+
+.pie{
+    padding: 20px;
+    color: whitesmoke;
+    background: #1e272e;
+    clear: both;/*hace que se acomoden los elementos*/
+}
+
+article{
+    background: #d2dae2;
+    border: 1px solid grey;
+    padding: 20px;
+    margin-bottom: 15px; /*margern hacia abajo*/
+}
+
+article footer{
+    text-align: right;
+}
+
+time{
+    color: #999;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px; /*margen hacia arriba*/
+}
+
+.columna blockquote{
+    border: 1px solid black;
+    padding: 40px; /*espaciado*/
+    background: #0be881;
+    margin-bottom: 20px;
+}
+
+article footer p{
+    text-align: center;
+}
+
+article p{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+a{
+    text-align: center;
+    margin-top: 40px;
+}
+
+div{
+    background: #808e9b;
+}

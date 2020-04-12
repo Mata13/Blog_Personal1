@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web</title>
+    <!--En este apartado proporcionamos más información sobre nuestro sitio web-->
+    <meta name="description" content="Esta es mi primera Página Web">
+    <meta name="author" content="Zick13">
+    <meta name="keywords" content="Mi primer sitio, mi primer web, página web"> <!--Aquí mejoramos el pocisionamiento-->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Los div no le dicen nada al navegador, lo podemos afectar con css-->
+    <div class="agrupar"> <!--el div agrupa el contenido-->
+    
+    <!-- Vamos a crear el título de la página web -->
+    <header class="cabecera">
+        <h1>Mi Blog</h1>
+    </header>
+
+    <nav class="menu">
+        <!--lista desordenada-->
+        <ul>
+            <li> <a href="#">Principal</a> </li>
+            <li> <a href="#">Ayuda</a> </li>
+            <li> <a href="#">Contacto</a> </li>
+        </ul>
+    </nav>
+
+    <!--Sección principal del blog-->
+    <section class="seccion">
+
+        <!--Aquí van los artículos del blog van dentro de la section-->
+        <article>
+
+            <!--Agrupamos los encabezados-->
+            <hgoup>
+                <h1>Título del primer artículo</h1>
+
+                <!--Subtítulo-->
+                <h2>Subtítulo del primer artículo</h2>
+            </hgoup>
+
+            <!--Fecha de los artículos-->
+            <time datetime="11-04-2020">Publicado el 11-04-2020</time>
+
+            <!--Imágenes en html-->
+            <img src="Images/malinois.jpg" width="120" height="120"/>
+
+            <!--Colocamos un texto de prueba-->
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quasi natus aperiam voluptates minima totam maiores ab eos <cite>nemo impedit!</cite> <!--citamos-->
+                <small>Inventore commodi eum iste numquam asperiores, labore illo in nisi sit?</small> <!--Hace más pequeña la letra-->
+            </p>
+
+            <!--Comentarios-->
+            <footer>
+                <p>Comentarios(0)</p>
+            </footer>    
+            
+            <!--Ponemos un enlace-->
+            <a href="http://google.com">Visita este sitio web</a>
+            
+        </article>
+        
+        <article>
+            <!--Agrupamos los encabezados-->
+            <hgoup>
+                <h1>Título del primer artículo</h1>
+
+                <!--Subtítulo-->
+                <h2>Subtítulo del primer artículo</h2>
+            </hgoup>
+
+            <!--Fecha de los artículos-->
+            <time datetime="11-04-2020">Publicado el 11-04-2020</time>
+
+            <!--Colocamos un texto de prueba-->
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae ad qui doloremque autem libero, quam nisi atque corporis sapiente recusandae vero,
+                <span>quibusdam maiores laudantium, quasi eaque.</span> <!--este sirve para que podamos alterarlo con css-->
+                Sunt quos commodi odit aliquid.
+            </p>
+
+            <!--Comentarios-->
+            <footer>
+                <p>Comentarios(0)</p>
+            </footer>
+        </article>
+    </section>
+
+    <!--Colocamos contenido relacionado pero no importante, este es contenido lateral-->
+    <aside class="columna">
+        <blockquote cite="http://faztweb.com">
+            cita 1
+        </blockquote>
+
+        <blockquote cite="http://faztweb.com">
+            cita 2
+        </blockquote> 
+    </aside>
+
+    <!--Colocamos el footer-->
+    <footer class="pie">
+        Derechos Reservados &copy; 2020-2021
+    </footer>
+    </div>
+
+</body>
+</html>
