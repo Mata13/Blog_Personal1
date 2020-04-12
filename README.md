@@ -2,4 +2,4 @@
 
 Esta es la primera version de un blog personal.
 Falta agregar más cosas.
-Contiene Textos de prueba.
+Contiene textos de prueba.
